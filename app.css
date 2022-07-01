@@ -1,0 +1,20 @@
+.custom_color{
+    background: rgb(9,9,121);
+    background: linear-gradient(133deg, rgba(9,9,121,1) 0%, rgba(9,9,121,1) 15%, rgba(0,212,255,1) 100%);
+}
+.font_color_white {
+    color: white;
+}
+
+#output, #input{
+    margin-top: 5vh;
+}
+#input>form>div{
+    margin-bottom: 10px;
+}
+#output ul {
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr 2fr 1fr 2fr 0.5fr;
+    list-style-type: none;
+}
+
